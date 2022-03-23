@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+}
+.header{
+    width: 100%;
+    height: 72px;
+    background:#fff;
+    display: flex;
+}
+.left-side{
+    width: 45%;
+}
+.right-side{
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.header-img{
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.watchnowbtn{
+    width: 155px;
+    height: 50px;
+    background-color:transparent;
+    border: #fff 2px solid;
+    position: absolute;
+    top: 495px;
+    left: 80px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.text-editor{
+    color: #008cba;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.location-icon{
+    color: #008cba;
+    margin-left: 7px;
+}
+.second-text{
+    color: #008cba;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.third-text{
+    color: #008cba;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5
+}
+.second-img{
+    margin-top: 80px;
+}
+.owner-dashbord-btn{
+    width: 155px;
+    height: 50px;
+    background-color: transparent;
+    border: #fff 2px solid;
+    z-index: 10;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.third-img{
+    margin-top: 75px;
+    position: relative;
+}
+.owner-dashbord-btn{
+    width: 182px;
+    height: 50px;
+    background-color: transparent;
+    border: #fff 2px solid;
+    position: absolute;
+    top: -270px;
+    left: 120px;
+    border-radius: 25px;
+}
+.dash-board{
+    margin-left: 17px;
+    margin-top: 13px;
+    color: white;
+}
+.Transprancy{
+    color: #00095b;
+    margin-left: 71px;
+    margin-top: 60px;
+    font-family: "FordAntennaBold";
+    box-sizing: border-box;
+}
+.we-will{
+    color: #4d4d4d;
+    margin-left: 74px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.watch-now{
+    width: 155px;
+    height: 50px;
+    color: #fff;
+    position: absolute;
+    font-size: 25px;
+    top: 470px;
+    left: 110px;
+    z-index: 5;
+    font-weight: 100;
+    cursor: pointer;
+
+}
+.watch-now h5{
+    font-weight: 300;
+    font-size: 22px;
+
+}
+.watchnowbtn:hover .watchnowtext{
+    color: #008cba;
+}
+.watchnowbtn:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.service-price{
+    margin-left: 72px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    margin-top: 32px;
+}
+.calculate{
+    font-family: "FordAntennaBold";
+    color: #4d4d4d;
+    margin-left: 72px;
+    margin-top: 25px;
+}
+.now{
+    margin-left: 72px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    margin-top: 25px;
+    
+}
+.assurance{
+    margin-left: 72px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    margin-top: 50px;
+}
+.no-stone{
+    margin-left: 72px;
+    color: #4d4d4d;
+    font-family: "FordAntennaBold";
+    margin-top: 20px;
+}
+.two-part{
+    width:100%;
+    height: 470px;
+    display: flex;
+}
+.img-4{
+    margin-top: 20px;
+    margin-left: 72px;
+}
+.img-5{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.two-writing-section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.first-wtn-stn{
+    width: 40%;
+}
+.second-wtn-stn{
+    width: 50% ;
+}
+.genuine{
+    margin-left: 72px;
+    font-family: "FordAntennaBold";
+    color: #00095b;   
+}
+.para-1{
+    color: #4d4d4d;
+    font-size: medium;
+    margin-left: 73px;
+    line-height: 26px;
+}
+.know-more{
+    margin-left: 75px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    display: flex;
+}
+.extent{
+    margin-left: 164px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+}
+.para-2{
+    margin-left: 166px;
+    color: #4d4d4d;
+    line-height: 26px;
+}
+.kown-1{
+    margin-left: 168px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    display: flex;
+}
+.comfort{
+    margin-left: 74px;
+    margin-top: 38px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+}
+.para-3{
+    margin-left: 76px;
+    color: #4d4d4d;
+}
+.three-img-div{
+    width: 100%;
+    height: 340px;
+    display: flex;
+}
+.img-6{
+    margin-left: 72px;
+    margin-top: 15px;
+    display: flex;
+}
+.img-7{
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+}
+.img-8{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.three-heading-div{
+    width: 100%;
+    height: 55px;
+    display: flex;
+}
+.first-para{
+    width: 35%;
+    display: flex;
+}
+.second-para{
+    width: 35%;
+    display: flex;
+}
+.third-para{
+    width: 30%;
+    display: flex;
+}
+.pick-up{
+    color: #00095b;
+    margin-left: 71px;
+    font-family: "FordAntennaBold";
+}
+.real-time{
+    margin-left: 7px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+}
+.flexi{
+    font-family: "FordAntennaBold";
+    margin-left: 175px;
+    color: #00095b;
+}
+.three-para-div{
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+.para-div-1{
+    width:35% ;
+    display: flex;
+}
+.para-div-2{
+    width: 35%;
+    display: flex;
+}
+.para-div-3{
+    width: 30;
+}
+.opt{
+    margin-left: 72px;
+    line-height: 22px;
+    color: #4d4d4d;
+}
+.tailor{
+    margin-left: -62px;
+    line-height: 22px;
+    color: #4d4d4d;
+}
+.receive{
+    line-height: 22px;
+    margin-left: 4px;
+    color: #4d4d4d;
+}
+.more{
+    margin-left: -62px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    display: flex;
+}
+.care{
+    margin-left: 72px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+}
+.always{
+    margin-left: 73px;
+    color: #4d4d4d;
+    font-family: "FordAntennaBold";
+}
+.double-side{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.img-9{
+    margin-left: 74px;
+    display: flex;
+    height: 365px;
+}
+.img-10{
+    height: 365px;
+    margin-left: 20px;
+}
+.head-word{
+    width: 100%;
+    display: flex;
+}
+.customer{
+    margin-left: 74px;
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    display: flex;
+}
+.road-side{
+    color: #00095b;
+    font-family: "FordAntennaBold";
+    margin-left: 330px;
+}
+.para-words{
+    width: 100%;
+    height: 200px;
+    display: flex;
+
+}
+.dedicated{
+    margin-left: 78px;
+    line-height: 22px;
+    color: #4d4d4d;
+    display: flex;
+}
+.really{
+    line-height: 22px;
+    color: #4d4d4d;
+    margin-left: 234px;
+}
+.picture{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.disclaimer{
+    width: 100%;
+    height: 30px;
+    border: 1px;
+    border-color: #4d4d4d;
+}
+.div-border{
+    border: .1px solid;
+    border-color:#4d4d4d;
+    width: 100%;
+    height: 100px;
+}
+.Bookservice-btn{
+    width: 165px;
+    height: 38px;
+    background-color: transparent;
+    border: #fff 2px solid;
+    z-index: 15;
+    position: absolute;
+    left: 157px;
+    top: 106px;
+    border-radius: 25px;
+}
+.book{
+    font-weight: 300;
+    color: #fff;
+    margin-left: 24px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    
+}
+.line-div{
+    margin-left: 692px;
+    margin-top: 38px;
+    font-weight: .5px;
+    color: #008cba;
+    font-size: small;
+}
+.small-para{
+    height: 180px;
+    background-color: #e2e2e2;
+    padding-top: 10px;
+}
+.para-small{
+    padding-bottom: 16px;
+    margin-top: -110px;
+    margin-left: 38px;
+    color: #616161;
+    line-height: 26px;
+}
+.search{
+    background-color: rgb(52, 52, 52);  
+    height: 110px;  
+}
+.searching{
+
+    color: #e2e2e2;
+    margin-left: 45px;
+    margin-top: -71px;
+}
+.table-div{
+    height: 530px;
+    background-color: black;
+    display: flex;
+}
+ul{
+    color: #fff;
+    list-style-type: none;
+}
+.first-div{
+    margin-left: 80px;
+    margin-top: 55px;
+}
+.first-heading{
+    font-size: x-large;
+    font-family: "FordAntennaBold";
+}
+.second-div{
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.second-heading{
+    font-size: x-large;
+    font-family: "FordAntennaBold";
+}
+.third-div{
+    margin-top: 55px;
+    margin-left: 40px;
+
+}
+.third-heading{
+    font-size: x-large;
+    font-family: "FordAntennaBold";
+}
+.forth-div{
+    margin-top: 55px;
+    margin-left: 40px;
+
+}
+.forth-heading{
+    font-size: x-large;
+    font-family: "FordAntennaBold";
+
+}
+.fifth-div{
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.fifth-heading{
+    font-size: x-large;
+    font-family: "FordAntennaBold";
+
+}
+.contact{
+    font-size: x-large;
+    font-family: "FordAntennaBold";
+
+}
+.second-last-div{
+    width: 100%;
+    height: 100px;
+}
+.second-last-div{
+    background-color: #1b394e;
+}
+.parent-div{
+    width: 100%;
+    display: flex;
+}
+.follow-ford{
+    color: #fff;
+    font-size: x-large;
+    margin-left: 30px;
+}
+.img-a1{
+    margin-left: 20px;
+    margin-top: 28px;
+}
+.img-a2{
+    margin-left: 10px;
+    margin-top: 28px;
+
+}
+.img-a3{
+    margin-left: 10px;
+    margin-top: 28px;
+
+}
+.img-a4{
+    margin-left: 10px;
+    margin-top: 28px;
+
+}
+.img-a5{
+    margin-left: 10px;
+    margin-top: 28px;
+
+}
+.last-div{
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 200px;
+    padding-top: 2px;
+}
+.last-para{
+    margin-top: 25px;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+.para-last{
+    margin-left: 40px;
+    color: #868686;
+    margin-top: 35px;
+    line-height: 28px;
+}
+.leav-img{
+    height: 220px;
+    margin: 0px;
+    padding: 0px;
+    border-style: none;
+    border-width: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    list-style: outside none none;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    position: absolute;
+    top: 276px;
+    left: 1466px;
+    z-index: 600;
+    background-color: #616161;
+    position: fixed;
+    border-radius: 5px;
+}
+
+
+
+
